@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Bootstrap</title>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bootstrap 4">
+        <meta name="author" content="Michael Daniel Murillo López"> 
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <!-- FontAwesome JS -->
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+        <!-- Global CSS -->
+        <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"> 
+        <!-- Theme CSS -->         
+        <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    </head>     
+    <body>
+        <!-- ******HEADER****** -->         
+        <header id="header" class="header"> 
+            <div class="container"> 
+                <h1 class="logo"> <a class="scrollto" href="#hero"> <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/images/logo-icon.svg" alt="icon"></span> <span class="text"><span class="highlight">Programacion</span>Web</span></a> </h1>
+                <!--//logo-->
+                <nav class="main-nav navbar-expand-md float-right navbar-inverse" role="navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">mi pagina</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--//nav-toggle-->
+                    <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a class="active nav-link scrollto" href="#about">Inicio </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scrollto" href="#testimonials">Comentarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scrollto" href="#features">Datos</a>
+                            </li>                             
+                            <li class="nav-item">
+                                <a class="nav-link scrollto" href="#team">Modelos&nbsp;</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scrollto" href="#pricing">Precios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scrollto" href="#contact">Contacto</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <!--//navabr-collapse-->
+                </nav>
+                                 
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div id="hero" class="hero-section">
+            <div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-ride="carousel" data-interval="10000">
+                <div class="figure-holder-wrapper">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="figure-holder">
+                                <img class="figure-image img-fluid" src="assets/images/imac.png" alt="image" />
+                            </div>
+                            <!--//figure-holder-->
+                        </div>
+                        <!--//row-->
+                    </div>
+                    <!--//container-->
+                </div>
+                <!--//figure-holder-wrapper-->
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#hero-carousel"></li>
+                    <li data-slide-to="1" data-target="#hero-carousel"></li>
+                    <li data-slide-to="2" data-target="#hero-carousel"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item item-1 active">
+                        <div class="item-content container">
+                            <div class="item-content-inner">
+                                <h2 class="heading">los mejores temas web<br class="d-none d-md-block">sencillos</h2>
+                                <p class="intro">Realizados con boostrap</p>
+                                <a class="btn btn-primary btn-cta" href="#" target="_blank">programacion web</a>
+                            </div>
+                            <!--//item-content-inner-->
+                        </div>
+                        <!--//item-content-->
+                    </div>
+                    <!--//item-->
+                    <div class="carousel-item item-2">
+                        <div class="item-content container">
+                            <div class="item-content-inner">
+                                <h2 class="heading">Bootstrap&nbsp;</h2>
+                                <span style="font-size: 18px;">Desarolla tu pagina utilisando la ultimas tecnicas de programacion web</span>
+                            </div>
+                            <div class="item-content-inner">
+                                <a class="btn btn-primary btn-cta" href="#" target="_blank">mas sobre nosotros</a>
+                            </div>                             
+                            <!--//item-content-inner-->
+                        </div>
+                    </div>
+                    <!--//item-->
+                    <div class="carousel-item item-3">
+                        <div class="item-content container">
+                            <div class="item-content-inner">
+                                <h2 class="heading">Tecnicas web</h2>
+                                <p class="intro">lo mas eficiente del mercado</p>
+                                <a class="btn btn-primary btn-cta" href="#" target="_blank">mas sspbre nosotros</a>
+                            </div>
+                            <!--//item-content-inner-->
+                        </div>
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//carousel-inner-->
+            </div>
+            <!--//carousel-->
+        </div>
+        <!--//hero-->
+        <div id="about" class="about-section">
+            <div class="container text-center">
+                <h2 class="section-title">Programacion Web</h2>
+                <p class="intro text-primary bg-light">Desarollo Web con&nbsp; las aplicaciones mas actuales del mercado</p>
+                <ul class="technologies list-inline">
+                    <li class="list-inline-item">
+                        <img src="assets/images/logo-html5.svg" alt="HTML5">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/logo-css3.svg" alt="CSS3">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/logo-bootstrap.svg" alt="Bootstrap">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/logo-sass.svg" alt="Sass">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/images/logo-jquery.svg" alt="jQuery">
+                    </li>
+                </ul>
+                <div class="items-wrapper row">
+                    <div class="item col-md-4 col-12">
+                        <div class="item-inner">
+                            <div class="figure-holder">
+                                <img class="figure-image" src="assets/images/figure-1.png" alt="image">
+                            </div>
+                            <!--//figure-holder-->
+                            <h3 class="item-title">Desarollo web</h3>
+                            <div class="item-desc">
+                                tema gratuito de Bootstrap diseñado para ayudar a los desarrolladores y startups a promocionar sus productos y servicios. Se incluyen los archivos fuente CSS, por lo que es muy fácil personalizar la plantilla para adaptarla a sus necesidades.Actualizaremos y mejoraremos la plantilla en función de los comentarios de los usuarios, así que póngase en contacto o deje un comentario si tiene alguna pregunta o sugerencia. 
+</div>
+                            <!--//item-desc-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item col-md-4 col-12">
+                        <div class="item-inner">
+                            <div class="figure-holder">
+                                <img class="figure-image" src="assets/images/figure-2.png" alt="image">
+                            </div>
+                            <!--//figure-holder-->
+                            <h3 class="item-title">Beneficios en el seo</h3>
+                            <div class="item-desc">
+                                El posicionamiento en buscadores u optimización de motores de búsqueda es el proceso de mejorar la visibilidad de un sitio web en los resultados orgánicos de los diferentes buscadores. También es frecuente nombrarlo por su título inglés, SEO (Search Engine Optimization).
+</div>
+                            <!--//item-desc-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item col-md-4 col-12">
+                        <div class="item-inner">
+                            <div class="figure-holder">
+                                <img class="figure-image" src="assets/images/figure-3.png" alt="image">
+                            </div>
+                            <!--//figure-holder-->
+                            <h3 class="item-title">Adaptado a Dispositivos Mobiles</h3>
+                            <div class="item-desc">
+                                El diseño está en todas partes. Cualquier objeto, por insignificante que sea, tiene un trabajo de diseño detrás incluyendo, por supuesto, nuestros teléfonos móviles. 
+</div>
+                            <!--//item-desc-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//items-wrapper-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//about-section-->
+        <div id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title text-center"><h2>Muchos clientes felices</h2></h2>
+                <div class="item mx-auto">
+                    <div class="profile-holder">
+                        <img class="profile-image" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFRUXGBoaGBgXGBcfFxcYHRgXFxcXGBoaHSggGBolHRcXITEiJSkrLi4uGB8zODMtNygtLisBCgoKDg0OFxAQGC0eHx0tLS0rKy0tLS0rLSstLS0tLjErLS0tKystLS0tLSsrLSstLS0tLS0tLS0tLS0tNy03Lf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAGAQIDBAUHAAj/xAA/EAABAwEFBQYEBAQGAgMAAAABAAIRAwQFEiExBkFRYXETIoGRocEysdHwBxRC4SNSYnIVM4KSwvEkUxZDc//EABoBAAMBAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAnEQEBAAICAgEDBAMBAAAAAAAAAQIRAyESMQQyQVEFImFxEzNCFP/aAAwDAQACEQMRAD8A6A6n9mVl3pclKsM24XbnCJ89/it0NTH0Ruy+R6hYtXLr4uh9J0Pz4OGjo48Cqt2219CoHMOm7cRvBC6Xb7G2owseJaR4jgQd4+SAb3uZ1EkagfCd7m8equUOj3HeLarA4HI7uB3grVK5dspenZPg/A4ieR3FdMpVZCCKUwp5TUyphTCFIQmuCRmFNTnBNSBjimKRwTCkEFEZdZ+aUp1Md0dEhQZhSFKU1AOAUgTAnQgjgllIAlT2RCmuTiUxyNmGdoKObsuf35Ifo2VpMzB1ARTfrN/EFB3ZOObVe0iSzVM4jj7FXaBWPYycifHyWi10BNK1+aHBeVWfuV5ToDcNSlqzdnLx7akMXxtydz4O6FaNZ27z5D7y8VNi1So3EeXtvPjom3nc/a0iYzExlu4j6K/Z7MTpqc+gjIeCv3bUx0wHCHAZjzExuBj5pRTil52Y0X5CBPqjLY+9cbMDj3m8d7dx8NPJS7bXMM3Nbk705eGnQhBl02w0azXcDDh/SdfbyVB1kJCFHY6mJoP3yUyWyMITHqSExyAYU1OISEJAxwUNcw0ngCpnKG0juxxy8yAkbwbomFSFRuQDCmp0puJMHNCcq77SxurmjqQPmoXXrRGtVn+4fVAaAKVZzb2of+1n+4KZt4UjpUYf9QQSy4phKaKk6Zr2JMMy+WSAefsUEvqmm4xuJRzfA/hnlB9UF2l8PMic1cTV+xPxAO0V6cgqNiqgju6Scuatl2iaUuL7yXkmMcF5PojrmtRpVGvbm2Mxxafca+aPKHfz1Bg+7R7rnNxjEAwyJzaT6hdL2ZoRTjcDl7qs8OtntpUKIa2Tv1+ibV1DmkQJxdI05cVbcFE8wTGseugWNOVTvaxirTLTnIy6x7hchv2yGk/ERvg/XxXYKDiGnFnBMEcNxQXtpZGEE6B2We50Ej3Ca50bsXb8VPCTm0x4atPt4InJXNtk7VgqtGL4hhPCdW+uXiujMfIU2A6UxycSmkpEyb+vtlmDXPzBMEA94DTEB+oDeOE8FUt+1NnpxD2uJEiHCNJEnOJHHLiQg/8AFS1xVawOglgJ5NDpEcyTO74VzitaIkajjGfE+quY7hbdgb+INCRjY5oJgkd7DzMAAj+0k8loO2tsboi0MzI1xDnvC4P2pgyfDilNYp3CDb6Bffdnw4u2plu6HAz0AzKw7XtpSEimxzzxPdHufkuNstBnmN/ur1lvVzTLu8B5x1SuB+Q8tG1ld+hDB/SB8zKpVLbWf8T3nPifZZ9gtTXtlsdIzHVXGV8ilo3mUikczdlPgl7SRooyMkzSNBHNI2ZzHoka7nuUjHz5ICFtreHS1zm9CVq2TaWszJxxjnr5hUoHIqKpSG5IhdRv2lWaWk4HEHIn30Q9bmDFnwWTBla9vdIaeIVRNW7Exrfh0JH0WjXpzHVY93U8OcyCB4Zrbc8EDqmRey5j1SKWQvJDUZwcadUsIggjL1lH+zN4CIPQ9UDNa6o6rWwl5jETuAjTrkVNcd896fOOH1XZNWarK7nbrgTHMVG6bcHtAndlzC0Vy5Y6uquVVtQAHTP6IQ2hodrTe3fEj+4d4IqvOpGXj9Fg2gb/AL+4JUXpccvpktcHAgQZHXUaLqNhqhzQ4bwD4HNcyt9Ls6lRm5rzEkaTI9Ea7JWrFQbnOElvlmPQhFUICVFaa4a0uJAAEknQDeSmWi0tY0veQ1rcySYAHNck/EDaz8wRTok9l4iTnMjLlqpk2VD22l7/AJi0Pc0y0EgGNc5138uSHWtKJbm2ZqVgHEENOfP9kZ3PspSHxZRx1KeXJjj01w4Msu3LRZ3HQHyTvyVT+Urrtex0KRBYwTvnOeaq1qNNxktgb4Uf5ms+LPy5RUpOG5MJK6NXu5jtQsm27NgiW5HgnOaX2jL41noMWO0uae6YPz++CI7rt/ad2IdGfPmFg26wPpHMePJXNmLTgr03HPvAeZ/7WnVY2XHoVUbFUP6T4qyy7KsfCB4oyo0GkAwpRZhwUbAIbdFUfpHmE11jqjVh8BPyRz+XCa6zhGzc+zBg/unNzRrXsLTqAVk2q4m6syPDd+yNgO1Gq3U/yWk6gwktFncww4R8j4qSJouHDPyVROSSwWZw70y0yPFaTh3Vi2Brw7I92RI+S2B8PgqSkg8PVeVftEiA2NprA+zVH4CW0qwIkaNJ1b7obtbX0GU3FuFrpg8Y5eB8l0K57ay3Wd1Goe+B4/0vHMHX90DXlZ6gqts1QSabzhaSIdigBwnccj4labTpfuG/XNAbJE5tPzHuj7ZjaEVppuP8Qaf1Df4j3C4veVaoyu6mRBY7du0gytex285PaYe0+R49Dn6ot2enVbdXxOKo1tPvoqV13kKzA8a6OHA8FZqOyWFq45ztpTP5gkD4msPjBb7LT/D+0EMqszkFrh493/iFX26pRUpu4tcPJ0+6wKV71KLXlhILxhmc25zI5wqncDQ/EHaAu/hMdoe9BMTEQT4nL13ILuSz9pXY12YJk8Nc1Ba6suM+KJNk7ODL9/H90s744tOLHyzg2pOhsAZfJOLS79lFZWSFK+u1u9cT0+kVawnVU3MhWKtv5rNq2qUy6I9vgoYIKV1dTUXA6oGyvsLKowuA0QTfV1Os1Qa4SciugtZGnmqW2tiBsrTvDvJbYVy82MsEOytq7WzU3nWId1BgrYDVz38MbyIc6znf3mzy+IeRC6OArycqOFG4KZxUbkiQvUVQKd6hcmFO02YPBDhkVg1bCaeJuoIyPsURVSsq8bYzJuIFwOiqFWJZWPmW7onzW0Dr9wsOi52LumNVsUieukq0ocaVT9iUqCNZajQqtq0Xd2ZHIHVruI3HwOSKdorA23WdteiP4rNBvP8ANTPPeP3QWSI/pPpPstPZm+zZqoa4k03a9Nx6j1CoBqrRe9lerIJHediPfmQPGPcKlY6z294zG8cRx90ebc3E1s2ikP4dSO0w6AmCH9CYPVAt+0SHUg14dNMOMDJpkiPSPJICC5Lz7GpMyx0B3Tc7wRy98t18QuSWK0/omd7T5yPFGWyd64m9g85t+Ene2RLeo+XRRkqKu37v8vPe/wBkFuJdkeOsIs26rd6m3g1x8yI+SFCRBI4H0Rj6OwOVH5u6+6N9lG4LMahGUF2XD3QFEkR0++C6k2zBlBtPg0A+H7qOa9SN/jTu0PW687TVPdlrdwEx57+qzK1O1alx8Ctq129lLuznwaJceg+qxrRfoJgB4PMN+QU42/aNcpjvuq9ntdoac3OI4FEdK0OLQ5ZN2Vcc8kdXPczX2dz3btOnFTlWnHj+KBrdexactVQZtBWB00Wpf9jFOqWxlAPUFUrJUbnkB1ICqa/DLOZb9r13bVuBAe2Rv4o7xMtNlcZxAtPgY9CganYW1BJachM7vMaeKJdk7KQyqyfib66e6Nwfu+/YS2dr9na6JG54HnkV2iVwuyEstNPk9vzC7lEK8nMRzlG4pXFRPcpJ57lA4pzimOTCJ4Q5fVEYienyRKWrB2hZrxLflKqUqwaPed8UGclvUJgTqhkUCRxW/d7soJzVpXl5ewDj80qAyMRBjdOQ4clO6liGH/b14La2ju1rSXtEMcZI4H6LDpfylOUCnY69w9pslfMEFrZneM2/TyQ3f9zNs9YtqhxaGuNMtjvCDhaeMHKFJbKRdT/MUvipwKoHhhf0Oh5id+RExzLzsmAmK9MZH+rcehiD/wBIJyp9JtJjSTJdpG6Pv1WlYbWThqNMOaRmOPHoc028bM9zmUTTOOmXtcGjMkwc46HNZtltBDjllBB6JG2dobw7Z4fEDCB0OZcPNZdRgAE6b/f5qW0PEcZiPvpkt2wWt1MMbTyc4BzjAkkkhrZ1iI8SVGWXjHRw8V5bqAex0GmsGtnNwGmWo+/FdTq2cEIfq3Tit1GrA7zwHgCMxmDl0+SIrW/CSFjy5b06eHj8LZQ7eVytcZiDx+iwamz/AHpnejWqC5VjTA6qJnWmXHKybsukM3a+p4lH1kbgs5B35Qh/8xTot7Wo4N4YiAB571JUvgVWAtIcDvBkeBU229tJjMWTtZYTUhwGYbHhP1QHaLudOQ09eq6vYK1MtPaTrAO7xQ9eNjw1C0gSNI3g5jPotMctRjyccyoduShVaR2b8BiHSSQ6dQRwhdK2essAO5ZhC9mYJRldA7o6J+W0TDxjldvoxbS0f+4gf7z9+C7KHLmVOxNdeL3vnBTqFxIjMzIEkgBdJo1muAc0gg7x6rS1y3G+znOURT3JhUpMKQpXFNlURCVibQMkA9fktsrEvm2McMIOIgzloNd6cKhyxN72Rz4LSu85+XzWPRjFnx1WpSGcgrVAi/K/eS8qv5/mPVKgCW0FhBaZIPLf5oFvKiWOOWh3cPv2RvUs7oJER1Cw78sYID9YyMb+v3wUQ1PZq3CnWbizpv7jwRILTlmOG/wVi8rDUu60ipTnsnGWmciN7HefqDxjLs+UgffBdDsLWWuxhr8zBaScyHAQHZ74IPiVZBramxCsxlus8hwHfjWBlJ5tiOi51eFmLWU8LmnEXZZ4hEa+aO7otb7DaHWetGAmDvHJ45bjy6LE21uIUH4m/wCU8ywj9Lo+Hpw/ZACrK8QDnH2UWXcA7sqgzGEtP9zZIHi0t8QUIsog5mYDZ6wt3Ym0F9U0W/rEsB/nb3oH+nEs+THeLp+Ly+Gf9t+68T6/aE91pZA3amT98Vo3szvz96BeN1OpFpxAQ8EiRxghT323vBc1+l3X69qLNNVHUoFOouCfVtwGUeKiVYZ2hshqwx7XQN4/dVbuszLOCGjXXPM8yta9rwpkgA4jy0896yKtonVvqrnrSb72q17pc+p28u14yB0Oo6LequLoJ3ADyVCx3i0ZHIcfvVajHZtdk5rtCDkU7Eek1kpBE91s3BZjLKAWkaH5rau1kBzuAKksr0DbWxlV1fC4Q0vMZziDvVa2yDv4TuGP2CHLFZn46hIw666S7PXhEnwUrNpDTYKdJgAH6nSS47yRu6LTHG2p5s5jx6/I5c9V61qa0S5wHMmEA177rvmahH9vdHoqPbg5udJ5kkrTxcOx1aNoKLdHF5/pHuYWbW2jefgYGjnmfIZIZFtbuBPXJMbbXO0y6fVXIm1uWm11HCaj8ueQ8gqZtg/SJ56BZ1Fr3AuOm8lXbuszYLiQTnkTqmSGj35jXWdy07uqFwAcnXZSJDmNp43O0icueS2f/jtZgDi0RqYI7vnr4JkpQeaVWsC8ghXTcSYjX7lVbXZ8TS0yMt+nLVXbSTBzOWfsfZZrzz1UqC1V2F3oUXbB2zv1KR3gOHhkfn6IVvunheY35+6u7K13MtFI6S7Cejsvf0VygW7XXCLTTluVVmbTvI/l+n7lc+vW9XOsps7x3g9oE6gCeOeUR48l16quVbe2Zn5ru6loL+E55+QTTAlVJZigxLS10cCIUFRrqb2OY8CA14cwkFpmRByhwIV2uJGfxfMLNtDMUNzmREb+A80lCm69qatV9NlZzXzUZLyIeO8M5bAPiCja+6JBgri9FzmyYIIOXp7rtVvtPa2ahaQI7Wm1xHAkAkdZnyWPJjNdOji5LvVDTiQsu8GOfIa7DzWtaKmIdFQLlyeq75dsFt3gGHvfPIgKKpd3Cq4eq2K7AddVl2iQYzWkzG5DKN1TrWPkIUzLNUpOEVMbOkGeiZZzJzMrRY+QAquXScrL6Etz2guYAt2rUDLPVedA0+uXusDZyjliOm7mre29pDLFgETUcBHGMz4aKZ3dMc8tQN3nf1mZTqUqM1HOAAd+huXfg6u4DKOaFmVXHcQOmSlDG4IHxk++i0qN3130202UHf3QRPnkF0yTFyZ53O7rHqU6mHGfhmJKls9kcGYyciiOjszansDHljWcCZPHPCPdX7PsfA79Unk1sR5kp7RoJssrQzFPe4Zq5Zc2YG0y53FsnfrARY25LNT1E83n209FK69aFMQ2OjB76I2GFd9xWlzYjs2nXHkT/p1W7d2ytNudR5fy0b9VWftJOTGRzP0CZTqWqtoHQeUBBCZlqoUBhbhb/SyJ8QPdZ9pvWpXPZ025cBqep3BRXfs+dajvBv1RDY7MymIaAB6+acJg/wCD1uA/3fsvIoXlWi2rVrQATDd0b1WqwNGiCAeMeamtFJR1qToGR0zy5n9lCg9fk910AZRkBz+oWXY6xbBGoII8P+gtu/qRwAkRB4jl9PRYFKBOaqB1t9UEBw0InwIlckvmt21atUG90N4FoyHoAjuvb8F3ipqRSA8fgHrC51SPdjTf4fcKiZ1opZSFcuy6BXYXU3GnUZkdcLpmDM907vDmlstLtHtZvc4DzOvutB1ltVlnCJZrlm3qR+k+SVNlHZq1UyXNDKhM5SM55OhdF2EsT6l3PoVWljmVHYZiMLoeIg6SXIQZtM8TipgnkSPqifZW/wAvp1yG4SzAdZmcc7uQ81F9Kx9hy9rI+m8t4LPZUk55Lbvm+W1XS8QVhVQ12h8QuTKd9PRxvXawcPioH12zEKo8vGhn5qq5zgcwpO1qsazeIUjaAJy0WO2q/gtOwsLonRNFyEt2HEWsbpkFo3qbK7D2vZuwCBiIMccuo9E7ZmygNLspAMHnGqxW7GEmXVjnmYb7krXjn3c3Lkt/4xZKfwYR/Y36BVau1tIfCxx6wPqrFLZGgNS93Vw9gtCz3BZm6Ugf7s/mVsx2Ga209V3wNaM+ZKT/AM6qMg8DoGjzyKOaVnAENaGjgAB8lIRmjRbBFLZmu743NE85Pyz81o2XZWmPjcXdMh9fVEhCXCnots6zXVSZ8LADx1PmVdhPIShGgRrVKxMCkaE4SXLgPReSQV5NJ1c65nQ/IrEeTKIbU0ScxoeHArCq0uY9fZSuMa9z/Ddyj6IdpnN33uRPflEdk7Ph80N9lrmqgbN72v8A8KzUgc3EznuaT6SR5IdtLcJyVh1bE9rT/wDWyBwzJP8AyK9aHaTxlMLuzFkm0B2oaHH0w/8AJGbwsPY2zwx7/wCYgeQn39Fu1CglR9madWtPUA+yksNmY1tUNY1pLM4aBoRrHVOcku220nCphe15ALDhcDDsiQYOR0yU5el4fVAbbLMHEgjSVj17ARp+6IrUzvHqq1RvFcG3p6D/AGTxv8/2UbxUGoC2a1IblUcwynstM5hfOg9VoWZ1Q6+it0aQ4K7Ro5qtp8RRsw7uEclpvaqGzzI8VtupLfi9OPn6yUAF6FZfRULqZWjErHwppBVUhJKAtFiaaagbVUgrIJ7Clwr2JeLkw8AngKOU4OQR0c15NxpUBdtNPeYHMkD5rKtDd4gji3MeJCgsuzr8U17Sajf5Wtw4uWIuMLUs91UGmW4wd8Pd0nPKNy0uCtBa/X/wiOY+aybFdVarmyk8g6OIhpHUwF0cXbTxfC3EM9ASDxE5A5nQb1cfQEd7PqSR5aImJ6cwrbNV2EyGy79ONs5DmY45AqjbLtrME1Kb2xlJBjoDoUQ/iBUpE0qM0qT6hjtXAAU2ggucTExmIG8xpnEe0N7WaxWUNs1Rleu8YW1JbUe3jUdqGgbgIzIygLDk5ZhZjJu0/FqbP2XBZ2CNRi8XZ+4Va9b1wOFKlTNeu6IpNMGIccTnHJggHM+ivbE7H06dBr7QztK9QYnl8nDOYbmdRvPGVuv2aspLyKQDqgAe4Ey4AggEkmW90SNCBBkLky/UeOWyfYeDi+0d+1a8tc3s2CQaYMyQc8RGTsx0+as7DWzDTqsybDgQDAmRGXGMIXVrXsVYqjC11EAn9bSe0niXbz1QRtF+Fj296yvFQf8ArfAfP9LownoY6qp87h5Z470rDeGW1e2Wpjc3PaOMkKoLWx8ljgY1ggx1hCd53PUoQKtNzHEnJzSMhlv1kjdw5hZgxMcHNJBG8aracGOU3Ltt/wCm79D4lR1GIWsm0L25VBjHHR30Poiay2htRuJhkfI8DzWWXHcW2PLMk1PJXLMVRGW+EtW8KdMS5wHj8gpktXcpBRYLbgz3jMDQHkobo/EizVXBlVj6FQuwwe+2Zj4mgEZ8QEC2ra50xTYMO8umT4TksOo8uqmpvcZ6FdXFhcfbi5s8cvT6JITHMWVs5f1K002lrh2mHvsPxA5TlvHMZLXV1irvoqu+krxKa4JDTOc1NhX3U1C+igKwKfK8aaQhBFJTmlMStKYSyvKOF5ILVS7iXYi8t4AbuYnerVlswEBgIG8nNzj489yfjJdyVuztnhC6VHUaLW56k7ylqjKZT6hQxtVexosc4NzaDAnUxp55eJU26mwv/wCE2erVNSrTZUc1sNxtDgASSYBy4ZqKnsTYO17X8uzFMwC4MkaHswcHosX8LLZUqCt2hLjkcR54jHIb0fYQvm/kcmd5svGtdaMjcpIXmpVz44zQMLU2D1Ui9Cm8c9wbQWmysqNLKjGvadWuAI8igm/PwvstUE0ZoPz0lzCYylpMgdCEeFMcCUY83JxX9uQ1K4Ffv4cW2hmKfbN/mpEujkWQH+QIRJ+E9ka2lVc5veL8JBnMANyc05HxHFdVe07s1Tq2ZgcHFsGRJ4xxIXbh+rZTrPHY8PxQ1tXsjStFAhjabKogtdEAGcx3RoRyQA/8MrZORpHmHn3auzVwAc/JVrXUMtwyBBlcvH+pc2NvrtpcJXMrv/CupM1qzWjhTBJ83AAeRRDZ/wAPrCwDEH1CN7nuz8GQEV0wDqSeqR8Iz+dz5/8AWv66L/HIoWW6qDAGso02gad0SOYIznnqmWi7axyZans4Syk6OUloJ8TK0WhTU6c5KcPk8mF6yO4yud31Vt1me1tasCx57tQYg2f5XAfCfMesVLLtDaGVAxziHczII/p4oy2wsgq0nUnb9Dv4g9QVzy00bVTAZUpCo1ujgCSB1GniF7Hxvl3OTftllhr06Pdl4iqAHENdzyB+ivuYf+kH2CjkIJC2qNuczJwMbiM16Em2djQcFG5qhfeAdBEHjnn5KwKzT+lHiSFzVGTCgrXzRxObJBbM8Mhmha99p3OJbS7reP6j9EtAX4l5c3/xOp/O7/cfqvI0HYWZmBMcR981pU24WwFm2FsuA8T9/eq0bTUgSTHyXRQpXpbRSbwJ000EknP70XP7ytbq9RtM/DMx8/VaG0N9YzgB+Ix0bPAbzkrWxF3Yq76hghkAdczPquL5nJ48d/lph7bexl1Ggx8iMRB+aIwlASNXz/flNqt2dCQpwTStM5JEkXkqSFjcaokJUqRLUxBFUtLwSGHMOBkcQrD3rPgl4MZLl5MvtF4TZlAnC5rszTOR3ln6SefzhI52Q5/UqzUpRULtxYQfMR7prbPp0Wf8tJYrgSm9irvYpRRVzZbiGnZ1YbTAUlNqbWcrid9h6+M3rKtTYGi27VRLnLPvKjDYGq6OPJTKu4SFpOIVS7rOWgg8VacvpeDPywlc+U7QlgJ0CnYIMRlyTKQ3/VSuBxDTf981vEsi/wCxsIc+MJ+EkbwYh3I5gQgy22F1N2F3UEaEcQuhXrSljgc5j2WFaLHjaaTt2bDvHL2RYkJQF5XP8Oq/ylKp1Q7HYPiPT2KS/wD/ACXf2lIvLXIOY0/853h8l0PYv4Kv/wCh9kq8vL/Ufon9rw+4lTWry8vIy+qKh4TSvLyvk+kihIvLyMfRvJHLy8sb6pqQ1KcNyVeXnT20noy3/A7p7qdu5eXlRFSry8rJ5qr19V5eVnPas7VZ946ry8tMfbVUq7lG778ivLy+j+F/pjnz9m0VYZr4fRKvLtjOqd6fC/w9lkVvib97l5eTS115eXlQf//Z" alt="profile">
+                    </div>
+                    <div class="quote-holder">
+                        <blockquote class="quote">
+                            <p>Testimonial goes here Donec felis odio, sagittis eu cursus ac, porttitor eu purus. In a bibendum dui. Nullam id est sed felis rutrum tincidunt eu nec nisi morbi euismod semper neque sed lobortis.</p>
+                            <div class="quote-source">
+                                <span class="name">@michaeldanielm</span>
+                                <span class="meta">Desarollador</span>
+                            </div>
+                            <!--//quote-source-->
+                        </blockquote>
+                    </div>
+                    <!--//quote-holder-->
+                </div>
+                <!--//item-->
+                <div class="item item-reversed mx-auto">
+                    <div class="profile-holder">
+                        <img class="profile-image" src="https://banner2.kisspng.com/20180205/wke/kisspng-anime-deviantart-anime-boy-png-transparent-image-5a78b47f81f6f3.1521353115178599675323.jpg" alt="profile">
+                    </div>
+                    <div class="quote-holder">
+                        <blockquote class="quote">
+                            <p>Desarrollo web a la medida</p>
+                            <div class="quote-source">
+                                <span class="name">@Jhon,</span>
+                                <span class="meta">Peru</span>
+                            </div>
+                            <!--//quote-source-->
+                        </blockquote>
+                    </div>
+                    <!--//quote-holder-->
+                </div>
+                <!--//item-->
+                <div class="item mx-auto">
+                    <div class="profile-holder">
+                        <img class="profile-image" src="https://pa1.narvii.com/6732/d4a6591085df71d99a2e4388328e89f60ca79289_hq.gif" alt="profile">
+                    </div>
+                    <div class="quote-holder">
+                        <blockquote class="quote">
+                            <p>Grandes diseños y muy buenso.</p>
+                            <div class="quote-source">
+                                <span class="name">@MattH,</span>
+                                <span class="meta">Berlin</span>
+                            </div>
+                            <!--//quote-source-->
+                        </blockquote>
+                    </div>
+                    <!--//quote-holder-->
+                </div>
+                <!--//item-->
+                <!--//item-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//testimonials-->
+        <div id="features" class="features-section">
+            <div class="container text-center">
+                <h2 class="section-title">Plantillas Bootstrap  </h2>
+                <p class="intro">tema gratuito de Bootstrap diseñado para ayudar a los desarrolladores y startups a promocionar sus productos y servicios. Se incluyen los archivos fuente CSS, por lo que es muy fácil personalizar la plantilla para adaptarla a sus necesidades.Actualizaremos y mejoraremos la plantilla en función de los comentarios de los usuarios, así que póngase en contacto o deje un comentario si tiene alguna pregunta o sugerencia.<a href="#" target="_blank">Bootstrap </a></p>
+                <div class="tabbed-area row">
+                    <!-- Nav tabs -->
+                    <div class="feature-nav nav nav-pill flex-column col-lg-4 col-md-6 col-12 order-0 order-md-1" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active mb-lg-3" href="#feature-1" aria-controls="feature-1" data-toggle="pill" role="tab" aria-selected="true"><i class="fas fa-magic"></i>20+ Usar páginas de aplicaciones basadas en casos </a>
+                        <a class="nav-link mb-lg-3" href="#feature-2" aria-controls="feature-2" data-toggle="pill" role="tab" aria-selected="false"><i class="fas fa-cubes"></i>más de 100 componentes y widgets </a>
+                        <a class="nav-link mb-lg-3" href="#feature-3" aria-controls="feature-3" data-toggle="pill" role="tab" aria-selected="false"><i class="fas fa-chart-bar"></i>Bibliotecas útiles de cartass</a>
+                        <a class="nav-link mb-lg-3" href="#feature-4" aria-controls="feature-4" data-toggle="pill" role="tab" aria-selected="false"><i class="fas fa-code"></i>Valide HTML5 + CSS3</a>
+                        <a class="nav-link mb-lg-3" href="#feature-5" aria-controls="feature-5" data-toggle="pill" role="tab" aria-selected="false"><i class="fas fa-rocket"></i>Basado en Bootstrap</a>
+                        <a class="nav-link mb-lg-3" href="#feature-6" aria-controls="feature-6" data-toggle="pill" role="tab" aria-selected="false"><i class="fas fa-mobile-alt"></i>Totalmente Adaptado</a>
+                        <a class="nav-link mb-lg-3" href="#feature-7" aria-controls="feature-7" data-toggle="pill" role="tab" aria-selected="false"><i class="fas fa-star"></i>Facil de manejar </a>
+                        <a class="nav-link mb-lg-3" href="#feature-8" aria-controls="feature-8" data-toggle="pill" role="tab" aria-selected="false"><i class="fas fa-heart"></i>actualizacioens gratis &amp;  y Soporte</a> 
+                    </div>
+                    <!-- Tab panes -->
+                    <div class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0">
+                        <div role="tabpanel" class="tab-pane fade show active" id="feature-1">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="https://josefacchin.com/wp-content/uploads/2016/01/crear-un-blog-con-WordPress.png" alt="screenshot">
+                            </a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-2">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="https://dev-res.thumbr.io/libraries/37/18/44/lib/1456844278451_1.jpg?size=854x493s&ext=jpg" alt="screenshot">
+                            </a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-3">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="https://theme.files.wordpress.com/2015/07/responsiveness3.png" alt="screenshot">
+                            </a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-4">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="http://blogtoolsdepot.com/wp-content/uploads/2013/11/responsive.png" alt="screenshot">
+                            </a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-5">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="https://udemy-images.udemy.com/course/750x422/149006_b92e_8.jpg" alt="screenshot">
+                            </a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-6">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBD-_C_RMrlk8yVbdF7Z30DtUvOjPGufcykVLSwFxn8jB_Z7Fc" alt="screenshot">
+                            </a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-7">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="https://xoowebs.com/wp-content/uploads/2017/09/C%C3%B3mo-elegir-el-mejor-alojamiento-de-WordPress.png" alt="screenshot">
+                            </a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-8">
+                            <a href="#" target="_blank">
+                                <img class="img-fluid" src="http://www.yourtechexpert.net/wp-content/uploads/2018/04/wordpress-design.png" alt="screenshot">
+                            </a>
+                        </div>
+                    </div>
+                    <!--//feature-content-->
+                </div>
+                <!--//tabbed-area-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//features-->
+        <div class="team-section" id="team">
+            <div class="container text-center">
+                <h2 class="section-title">programacion web</h2>
+                <div class="story">
+                    <p>Aun recuerdo hace menos de dos años cuando empece en el mundo de la web, surgieron tantas dudas, intente por varios lados a tratar de aprender lenguajes como html, css, pero sinceramente no buscaba exactamente por donde empezar en cada uno de ellos, y la realidad es que cuando comenzamos a programar para internet, surgen tantas dudas que no sabemos por donde empezar, a todos nos pasa, es la realidad, y bueno, quiero dedicar este post para explicar algunas de las cosas básicas que uno debe de saber antes de tomar el camino del desarrollo web para no morir en el intento y terminar mas confundidos de como empezamos, pero antes, les contaré una breve experiencia.
+Cuando quise aprender a programar para web, fue mas que nada una iniciativa originada del hecho de que me di cuenta que programar para escritorio tenia muchas limitaciones, hacer sockets para que todo pudiera conectarse a un servidor no era una gran ventaja, y bueno, un maestro siempre me decía que era muy bueno, que debería comenzar a programar ya para web para hacer sistemas de información que era lo que mas se solicitaba en el campo donde me encontraba.
+
+Y así, quise dar el salto, inicialmente había un lenguaje que era seguro que tenia que aprender, “html”, y bueno, comencé a leer cursos de html 4, el normalito, el detalle estaba en que cuando llegaba a la parte de formularios no entendía exactamente ahora que seguía, luego habia etiquetas que nos permitían dar colores, y se supone que eso lo hacia CSS, y era confuso, anteriormente, cuando aprendía lenguajes de programación, era dedicarle de lleno tiempo a ese lenguaje para aprenderlo, pero acá era muy diferente, me decian que aprendiera HTML en conjunto con CSS3, y sinceramente la teoría era muy aburrida, y muy poco explicita.
+
+En fin, así me la pase, luego escuche de JavaScript, de Php, y yo decía, bueno, cuando sepa html y css veré javascript, pero me decían que con javascript manipulaba el html y el css también, y mas confusión, luego la onda de PHP, pelie mucho por no aprenderlo ya que sinceramente soy fan de Python, aunque no conozco de lleno el lenguaje, y cuando empece a ver algo de Php, vi que tambien era código dentro de Html, ¿Para que quieren mas?, me perdí, y no sabia por donde empezar entonces, posteriormente decidí tomar unos cursos en linea de diseño web, y me aclararon muchas de mis dudas, luego lleve uno de backend, uno de frontend, y me certifique en las tres , no fue hasta que empece a desarrollar mis primeros proyectos que entendí bien lo que era un GET, un POST, algo muy confuso para mi en aquel tiempo, ahora, no puede ser más claro, actualmente desarrollo en todos estos lenguajes, y la verdad, super fácil, sin embargo aun veo a muchos de mis amigos peleando con estos conceptos, y bueno, ¿por que no dedicar un post a tratar de resolver esto?.
+
+Bien, primero que nada, hay una cosa que tenemos que entender muy bien: Captura   De manera general, la imagen superior representa como funciona la Web, existe un cliente, que normalmente somos nosotros, que pedimos a un servidor una página web, ahora bien, ¿Cuando sucede esto?, fácil, para que nosotros podamos llevar a cabo una petición web, necesitamos un navegador, ya sea chrome, firefox, iexplorer, safari, opera, un navegador movil, etc, no importa, la idea está en lo siguiente: Captura 2   Desde nuestro navegador web, nosotros introducimos una url de la siguiente manera: http://serprogramador.es  ¿Y que pasa?, el navegador convierte esta serie de palabras en una dirección ip, esta dirección ip, es la dirección de una computadora localizada en algún lugar del mundo que contiene la página que estamos buscando, por ejemplo, nosotros al escribir “http://serprogramador.es”, el navegador lo entiende como algo parecido a 234.228.208.123, y se va a internet y empieza a buscar la máquina con esta dirección, cuando la encuentra, ésta máquina, llamada servidor,  debe de tomar la petición, y enviar a la máquina que pidio la página, codigo html, css y javascript, y hasta ahí termina el trabajo del servidor, ahora bien, como el cliente pidio la página, el cliente es el que recibe este codigo html, css y javascript, ahora bien, ¿Por que solo html, css, y javascritp?, fácil, por que es lo único que el navegador sabe interpretar, esto tiene que quedar totalmente claro, el navegador web, solo puede leer HTML, CSS y JAVASCRIPT, y la pregunta mas obvia para aquellos que conocen mas o menos que onda es, ¿Y donde queda Php?. Captura 3   Esto es fácil, Php, Pyhton, Java, .NET, entre otros, son los lenguajes que se encuentran en esa máquina que nosotros estamos llamando servidor, es decir, las cosas funcionan de esta manera: Los navegadores solo pueden entender HTML, CSS Y JAVASCRIPT, nada más, cuando nuestro navegador le pide a un servidor una página, este lo recibe con un lenguaje de programación, que pueden ser Php, Python, Java o .Net (por ejemplo), vamos a generalizarlo a Php, php recibe la petición, y empieza a crear codigo HTML, con sus variables, sus estructuras de datos de php, etc, pero al final, cuando termine de hacer todo el trabajo, Php tiene que tener listo un documento HTML, y esto normalmente es así, cuando despues de hacer todo lo necesario, Php tenga listo el Html, se lo devuelve al cliente, y al cliente, como hemos mencionado anteriormente, le llega codigo HTML, CSS y JavaScript, ahora bien, la primera vez que explique esto, un amigo me pregunto, como es que cuando algo sale mal, Php manda errores, y se ven en el navegador, esto es sencillo de explicar, Php, como dije, tiene que devolver un HTML, entonces, cuando surge un error, PHP crea una etiqueta DIV, le pone algunos estilos, pone un mensaje de error, y se lo devuelve al cliente, si nosotros observamos un mensaje de error en PHP, veremos que contiene texto plano o codigo HTML, pero al final, eso es lo que tiene que suceder, ahora bien, una duda mas que salio en esto, fue, ¿Como es que uno programa codigo Php en mi maquina y se puede ejecutar sin que haya un servidor?, y esto es también muy fácil de explicar: Captura 4 Cuando nosotros instalamos herramientas como XAMPP, se configura nuestra maquina como un servidor, es por este motivo, que nosotros tenemos que teclear localhost en el navegador, por que en este momento, el servidor no se encuentra en internet, el servidor es nuestra propia maquina, y lo que nosotros hacemos de teclear codigo php dentro del HTML, accesando a bases de datos, obteniendo información de otros lados, y así, generar lo que al final le enviaremos al navegador,esto es lo que normalmente hace un servidor, pero observemos que cuando ejecutamos una pagina escrita en php, al final, lo que aparece en nuestro navegador, es codigo HTML, CSS y JavaScript, esto, como les dije, tiene que quedar claro, el navegador, solo entiende estos tres lenguajes, y es así, como funciona la Web, nuestro navegador pide una página, un servidor recibe la petición, la procesa, saca datos de bases de datos, arma un documento html, y se lo envia a nuestro navegador. Una vez entendido esto, la única pregunta que queda por contestar es: ¿Por donde empiezo?, y esto es fácil de responder, programar para internet, no es algo que tengamos que aprender por partes, no podemos aprender html, luego css, luego php, luego javascript, NO, esto no funciona así, para empezar a programar para internet, primero que nada tenemos que entender que es un conjunto de tecnologías, entonces, las tenemos que aprender en conjunto, ahora bien, no las podemos aprender todas de golpe, tenemos que aprender por pequeños conjuntos, ¿y cuales podría ser estos?, fácil, de entrada, tenemos que aprender HTML en conjunto con CSS, posteriormente podemos pulir nuestro CSS en conjunto con JavaScript, y por ultimo, aprendemos Php, el cual, podemos llevar de la mano con JavaScript con tecnologías con Ajax y JSON. De esta manera, podremos aprender todo lo necesario para desarrollar en web, y uno de mis mayores consejos es, una vez que hayamos aprendido algo, no reinventemos la rueda, existen frameworks, librerias y un mundo de herramientas que nos pueden permitir llevar la programación web de una manera fácil y por un buen camino.   Espero que les haya quedado claro, sino, cualquier duda, acá estamos. Saludos.</p>
+                </div>
+                <div class="members-wrapper row">
+                    <div class="item col-md-6 col-12">
+                        <div class="item-inner">
+                            <div class="profile mb-2">
+                                <img class="profile-image" src="https://vignette.wikia.nocookie.net/new-fantendo/images/4/4c/094Gengar_AG_anime.png/revision/latest?cb=20150427201150&path-prefix=es" alt="Gengar" />
+                            </div>
+                            <div class="member-content">
+                                <h3 class="member-name">Desarollo Pokemon</h3>
+                                <div class="member-title">Full-Stack Diseñador</div>
+                                <ul class="social list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="twitter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="github" href="https://github.com/michaeldanielm" target="_blank"><i class="fab fa-github"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="dribbble" href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="medium" href="https://linkedin.com/" target="_blank"><i class="fab fa-medium-m"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="member-desc">
+                                    <p>Desarrolo GUI <a href="#" target="_blank"> Bootstrap </a> desarollador colombiano web <a href="https://twitter.com/" target="_blank">Twitter</a> and <a href="https://www.facebook.com/" target="_blank">Facebook</a>. siguenos</p>
+                                </div>
+                                <!--//member-desc-->
+                            </div>
+                            <!--//member-content-->
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item col-md-6 col-12">
+                        <div class="item-inner"> 
+                            <div class="profile mb-2">
+                                <img class="profile-image" src="https://png.icons8.com/ios/1600/pokemon.png" alt="Tom Najdek" />
+                            </div>                             
+                            <div class="member-content">
+                                <h3 class="member-name">Developer</h3>
+                                <div class="member-title">Full-Stack Developer</div>
+                                <ul class="social list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="twitter" href="http://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.doppnet.com/" target="_blank"><i class="fas fa-intagra"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="github" href="https://github.com/michaeldanielm" target="_blank"><i class="fab fa-github"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="member-desc">
+                                    <p>Desarollador colombianos <a href="https://twitter.com/" target="_blank">Twitter</a> Desarollo de aplicaciones web <a href="https://github.com/" target="_blank">Github</a> full desarollador.</p>
+                                </div>
+                                <!--//member-desc-->
+                            </div>                             
+                            <!--//member-content-->                             
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//members-wrapper-->
+            </div>
+        </div>
+        <!--//team-section-->
+        <div id="pricing" class="pricing-section">
+            <div class="container text-center">
+                <h2 class="section-title">Precio</h2>
+                <div class="intro">De manera general, la imagen superior representa como funciona la Web, existe un cliente, que normalmente somos nosotro</div>
+                <div class="pricing-wrapper row">
+                    <div class="item item-1 col-md-4 col-12">
+                        <div class="item-inner">
+                            <h3 class="item-heading">gratis<br><span class="item-heading-desc">(GNU Licencia)</span></h3>
+                            <div class="price-figure">
+                                <span class="currency">$</span>
+                                <span class="number">0</span>
+                            </div>
+                            <!--//price-figure-->
+                            <ul class="list-unstyled mb-3">
+                                <li class="mb-2">
+                                    <i class="fas fa-check"></i> simple temas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check"></i> Facil de intalar
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-times"></i> optimizacion web
+                                </li>
+                            </ul>
+                            <div class="mb-3">
+                                <a href="#" target="_blank">Licencia de por Vida</a>
+                            </div>
+                            <a class="btn btn-cta" href="#">comprar</a>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item item-2 col-md-4 col-12">
+                        <div class="item-inner">
+                            <h3 class="item-heading">Desarollo facil<br><span class="item-heading-desc">(Licencia comercial)</span></h3>
+                            <div class="price-figure">
+                                <span class="currency">$</span>
+                                <span class="number">29</span>
+                            </div>
+                            <!--//price-figure-->
+                            <ul class="list-unstyled mb-3">
+                                <li class="mb-2">
+                                    <i class="fas fa-check"></i> simple temas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-times"></i> Facil de intalar
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check"></i> optimizacion web
+                                </li>
+                            </ul>
+                            <div class="mb-3">
+                                <a href="#" target="_blank">Licencia de por Vida</a>
+                            </div>
+                            <a class="btn btn-cta" href="#">comprar</a>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item item-3 col-md-4 col-12">
+                        <div class="item-inner">
+                            <h3 class="item-heading">Multiple sitios<br><span class="item-heading-desc">(Licencia Commercial)</span></h3>
+                            <div class="price-figure">
+                                <span class="currency">$</span>
+                                <span class="number">99</span>
+                            </div>
+                            <!--//price-figure-->
+                            <ul class="list-unstyled mb-3">
+                                <li class="mb-2">
+                                    <i class="fas fa-check"></i> simple temas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check"></i> Facil de intalar
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check"></i> optimizacion web
+                                </li>
+                            </ul>
+                            <div class="mb-3">
+                                <a href="#" target="_blank">Licencia de por Vida</a>
+                            </div>
+                            <a class="btn btn-cta" href="#" target="_blank">comprar</a>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//pricing-wrapper-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//pricing-section-->
+        <div id="contact" class="contact-section">
+            <div class="container text-center">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <p>Michael Daniel Murillo López<br>3507931910<br>michaeldanielm@icloud.com                    </p>
+                </div>
+                <a class="btn btn-cta btn-primary" href="#">contatar</a>
+            </div>
+            <!--//container-->
+        </div>
+        <!--//contact-section-->
+        <footer class="footer text-center">
+            <div class="container">
+                <small class="copyright">Desarollado para Programacion web <i class="fab fa-github"></i> | <a href="#" target="_blank">Michael Daniel Murillo López</a> ,colombia</small>
+            </div>
+            <!--//container-->
+        </footer>
+        <!-- Javascript -->         
+        <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>         
+        <script type="text/javascript" src="assets/js/main.js"></script>         
+    </body>
+</html>
