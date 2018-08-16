@@ -1,0 +1,234 @@
+/* fondo de pied de pagina*/
+body {
+	margin-top: 20px;
+	padding: 0;
+	background: url(images/img01.gif) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6D6D6D;
+}
+/*Typografia de pagina*/
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	text-transform: lowercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #006EA6;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 35px;
+}
+
+h2,h3,h4,h5,h6 {
+	font-size: 35px;
+}
+
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+}
+
+a:link {
+	color: #0094E0;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #0094E0;
+}
+
+a:visited {
+	color: #0094E0;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 15px 0 0;
+}
+
+img.right {
+	float: right;
+    margin: 7px 0 0 15px;
+}
+
+/* Form */
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+input, textarea, select {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 900px;
+	height: 130px;
+	margin: 0 auto 20px auto;
+	padding-top: 10px;
+}
+
+#logo {
+	float: left;
+	height: 90px;
+	background: url(images/img03.gif) no-repeat left top;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 5px 0 0 100px;
+	font-size: 40px;
+	color: #0099E8;
+}
+
+#logo h1 sup {
+	vertical-align: text-top;
+	font-size: 24px;
+}
+
+#logo h1 a {
+	color: #5F9D10;
+}
+
+#logo h2 {
+	margin: 0;
+	padding: 0 0 0 100px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #6D6D6D;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	padding-top: 30px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-left: 5px;
+	background: url(images/img02.gif) repeat-x left top;
+	padding: 1px 10px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+#menu .active a {
+}
+
+/* Page */
+
+
+
+
+/* Footer */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.texto {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+/*Typografia de texto*/
+.texto h1 {
+  font-family: 'Dancing Script', cursive;
+}
+.texto h2 {
+  font-family: 'Hanalei Fill', cursive;
+}
+.texto h3 {
+  font-family: 'Jua', sans-serif;
+}
+.texto h4 {
+  font-family: 'Ranga', cursive;
+}
+.texto h5 {
+  font-family: 'Lobster', cursive;
+
+}
+.texto h6 {
+ font-family: 'Pacifico', cursive;
+}
+
+
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
