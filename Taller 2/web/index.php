@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Meta tags -->
@@ -15,7 +15,7 @@
     <link href="//fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,700" rel="stylesheet">
 
 
-    <!--aja capcha y validator--->
+    <!--aja capcha y validator
     <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script>
         function validateContact() {
@@ -37,7 +37,7 @@
             $("#captcha_code").attr('src', 'captcha_code.php');
         }
 
-    </script>
+    </script>--->
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                 <p>Datos Personales</p>
             </div>
             <div class="agile-form">
-                <form action="/" method="post">
+                <form action="insertar.php" method="GET" id="registrar">
                     <ul class="field-list">
                         <li>
                             <label class="form-label"> 
@@ -60,7 +60,7 @@
 								<span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <input type="text" name="Nombre" placeholder="" required>
+                                <input type="text"  id="nombre" name="nombre" placeholder="" required>
                             </div>
                         </li>
                         <li>
@@ -69,31 +69,31 @@
 								<span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <input type="text" name="Apellido" placeholder="" required>
+                                <input type="text" id="apellido" name="apellido" placeholder="" required>
                             </div>
                         </li>
-                        <li>
+                       <!-- <li>
                             <label class="form-label">
 							   Genero
 							   <span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <select class="form-dropdown" name="genero" required>
+                                <select class="form-dropdown" name="Genero" required>
 									<option value="">&nbsp;</option>
-									<option value="M"> Masculino </option>
-									<option value="F"> Femenino </option>
+									<option value="MMasculino"> Masculino </option>
+									<option value="Femenino"> Femenino </option>
 									<option value="otro">Otro </option>
 									
 								</select>
                             </div>
-                        </li>
+                        </li>-->
                         <li>
                             <label class="form-label">
 							   Direcion de Correo
 							   <span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <input type="email" name="email" placeholder="" required>
+                                <input type="email" id="correo"  name="correo" placeholder="" required>
 
                             </div>
                         </li>
@@ -107,18 +107,18 @@
 							</label>
                             <div class="form-input dob">
                                 <span class="form-sub-label">
-									<select name="Tarjeta" class="Tarjeta ">
+									<select  id="tarjeta" name="tarjeta" >
 										<option>&nbsp;</option>
-										<option value="Credito"> Credito </option>
-										<option value="Debito"> Debito </option>
-										<option value="Prepago"> Prepago </option>
-										<option value="Comercial">CComercial</option>
-										<option value="Empresarial">Empresarial </option>
+										<option value="1"> Credito </option>
+										<option value="2"> Debito </option>
+										<option value="3"> Prepago </option>
+										<option value="4">Comercial</option>
+										<option value="5">Empresarial </option>
 										
 									</select>
 								</span>
                                 <span class="form-sub-label">
-									<select name="Franquisia">
+									<select  id="Franquisia" name="Franquisia">
 										<option>&nbsp;</option>
 										<option value="Visa"> Visa </option>
 										<option value="Master Card"> Master Card </option>
@@ -135,7 +135,7 @@
 								<span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <input type="text" name="Titular" placeholder="" required>
+                                <input type="text" id="Titular" name="Titular" placeholder="" required>
                             </div>
                         </li>
                         <li>
@@ -144,7 +144,7 @@
 							   <span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <input type="Number" name="tarjeta_number" placeholder="" required>
+                                <input type="number" id="tarjeta_numero" name="tarjeta_numero" placeholder="" required>
                             </div>
                         </li>
 
@@ -156,7 +156,7 @@
 							</label>
                             <div class="form-input dob">
                                 <span class="form-sub-label">
-									<select name="añoc" class="day">
+									<select id="anoc" name="anoc" class="año">
 										<option>&nbsp;</option>
 										<option value="2018"> 2018 </option>
 										<option value="2019"> 2019 </option>
@@ -176,7 +176,7 @@
 									<label class="form-sub-label1"> Año </label>
 								</span>
                                 <span class="form-sub-label">
-									<select name="mesc">
+									<select id="mesc" name="mesc">
 										<option>&nbsp;</option>
 										<option value="1">Enero</option>
                                         <option value="2">Febrero</option>
@@ -195,7 +195,7 @@
 								</span>
                                 <span class="form-sub-label">
 								<label class="form-sub-label1"> cvv2 </label>
-									<input type="text" class="year" name="year" placeholder=" Nuemro CVV" required>
+									<input type="text" class="cvv" id="cvv2" name="cvv2" placeholder=" Nuemro CVV" required>
 									
 								</span>
                             </div>
@@ -211,7 +211,7 @@
 								<span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <input type="text" name="mother_name" placeholder="" required>
+                                <input type="text" id="Nombre_1" name="Nombre_1" placeholder="" required>
                             </div>
                         </li>
                         <li>
@@ -220,7 +220,7 @@
 							   <span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <input type="text" name="mobile_number" placeholder="" required>
+                                <input type="text" id="tel" name="tel" placeholder="" required>
                             </div>
                         </li>
 
@@ -231,23 +231,23 @@
 							</label>
                             <div class="form-input add">
                                 <span class="form-sub-label">
-									<input type="text" name="Direccion" placeholder=" " required>
+									<input type="text"  id="direccion" name="direccion" placeholder=" " required>
 									<label class="form-sub-label1"> Direccion de Residencia </label>
 								</span>
                                 <span class="form-sub-label">
-									<input type="text" name="Localidad" placeholder=" " required>
+									<input type="text" id="Localidad" name="Localidad" placeholder=" " required>
 									<label class="form-sub-label1"> Localidad </label>
 								</span>
                                 <span class="form-sub-label">
-									<input type="text" name="city" placeholder=" " required>
+									<input type="text" id="city" name="city" placeholder=" " required>
 									<label class="form-sub-label1"> Ciudad </label>
 								</span>
                                 <span class="form-sub-label">
-									<input type="text" name="state" placeholder=" " required>
+									<input type="text" id="state" name="state" placeholder=" " required>
 									<label class="form-sub-label1"> Estado o Provincia </label>
 								</span>
                                 <span class="form-sub-label">
-									<input type="text" name="zipcode" placeholder=" " required>
+									<input type="text" id ="zipcode" name="zipcode" placeholder=" " required>
 									<label class="form-sub-label1"> Codigo Postal </label>
 								</span>
                             </div>
@@ -258,7 +258,7 @@
 							   <span class="form-required"> * </span>
 							</label>
                             <div class="form-input">
-                                <select class="form-dropdown" name="Pais" required>
+                                <select class="form-dropdown" id="Pais" name="Pais" required>
                                     <option value="">&nbsp;</option>
                                     
                                     <option value="Afganistán" id="AF">Afganistán</option>
@@ -507,7 +507,7 @@
 								Comentarios
 							</label>
                             <div class="form-input2">
-                                <textarea rows="2" cols="8" name="textarea"></textarea>
+                                <textarea rows="2" cols="8"  id="textarea" name="textarea"></textarea>
 
                             </div>
                         </li>
@@ -529,7 +529,7 @@
                 
                     <span class="span-terminos">Acepto la <a href="http://github.com/michaeldanielm" target="_blank" class="enlace-terminos">politica de privacidad</a></span>
 
-                    <input type="submit" value="Enviar">
+                    <input type="submit" id="enviar" value="Enviar">
 
 
                 </form>
@@ -539,24 +539,55 @@
         <div class="copyright">
             <p>© 2018 Programacion Web. Todos los derechos Reservados. | Desarollado <a href="https://github.com/michaeldanielm">Michael Daniel Murillo López</a></p>
         </div>
-    </div>
+        <div class="copyright">
+            <p>Administrar<a href="index2.php">Ingresar</a></p>
+        </div>
+      </div>
 </body>
 
 </html>
+ 
+ 
 
 
-<?php
-if(isset($_POST['registrar'])){
-    include ('conexion.php');
-    $link=conectarse();
+
+
+
+<!--
+function conectarse(){
+    $servidor="localhost";//el nombre del servidor de mysql
+    $usuario="root";//usuario de mysql
+    $contrasena="";//password de mysql
+    $bd="formulario";//nombre de la BD
+    //conectarnos a mysql
+    $link=mysqli_connect($servidor,$usuario,$contrasena) or die ("Error al conectarse a mysql");
+    //Seleccionar la BD
+    mysqli_select_db($link,$bd) or die
+    ("Error al seleccionar la BD");
+    return $link;
     
-    $Nombre=$_REQUEST['nombre'];
-    $Apellido=$_REQUEST['apellido'];
-    $tel=$_REQUEST['tel'];
-    $corr=$_REQUEST['corr'];
-    $sql="insert into alumnos values($cod,'$nom','$ape',$tel,'$corr')";
-    $res=mysqli_query($link,$sql) 
-     or die ("ERROR en al insertar el alumno $sql");
-    echo "<script>alert('Registro de alumno exitoso')</script><br>";
 }
+ <!---Script para hacer el ajax y mandar los datos del formulario -->
+<!-- <script type="text/javascript">
+     $(document).ready(function(){
+       $('#Enviar').click(function(){//llamo el id del boton para hacer una accion
+         var datos=$('#frmajax').serialize();//mediante el id del formulario llamo todos los datos del formulario. serialize llama todos los datos
+          $.ajax({//ajax tiene 4 atributos
+            type:"post",
+            url:"conexion.php",
+            data:datos,//llamo todos los datos
+            success:function(r){
+              if(r==1){
+                alert("Guardado exitoso");
+              }else{
+                alert("fallo");
+              }
+            }
+          });
+          return false;//No recargue la pagina
+       });
+     });
+</script> -->
+
+
 ?>

@@ -165,7 +165,7 @@ input[type="submit"]:hover {
    background:#00FF00;
     color: white;
 }
-input.year {
+input.cvv {
 	width: 31% !important;
 	    padding: 6px;
 }
@@ -271,7 +271,7 @@ label.form-label {
 width: 100%;
     margin-bottom: 7px;
 }
-input.year {
+input.cvv {
     width: 41% !important;
 }
 label.form-sub-label1 {
@@ -286,7 +286,7 @@ label.form-sub-label1 {
 .dob select {
     width: 42%;
 }
-select.day {
+select.año {
      width: 47px;
 }
 input[type="email"] {
@@ -317,7 +317,7 @@ textarea {
 label.form-sub-label1 {
     bottom: -25px;
 }
-input.year {
+input.cvv {
     width: 39% !important;
 }
 .heading h2 {
@@ -357,7 +357,7 @@ span.form-sub-label input[type="text"] {
     margin: 0px 0px 21px;
     width: 99%;
 }
-input.year {
+input.cvv {
     width: 40% !important;
     margin-top: 0px !important;
 }
@@ -369,7 +369,7 @@ label.type-of-test {
 input[type="email"] {
      width: 93.5%;
 }
-select.day {
+select.año {
     width: 47px !important;
 }
 textarea {
